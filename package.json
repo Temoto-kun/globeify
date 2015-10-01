@@ -1,0 +1,30 @@
+{
+  "name": "globeify",
+  "version": "1.0.0",
+  "description": "Convert equirectangular maps to interrupted sinusoidal maps.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Temoto-kun/globeify.git"
+  },
+  "keywords": [
+    "map",
+    "projection",
+    "image",
+    "manipulation",
+    "globe"
+  ],
+  "author": "Temoto-kun <https://github.com/Temoto-kun>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Temoto-kun/globeify/issues"
+  },
+  "homepage": "https://github.com/Temoto-kun/globeify#readme",
+  "dependencies": {
+    "pngjs": "^0.4.0",
+    "progress-stream": "^1.1.1"
+  }
+}
